@@ -41,16 +41,10 @@ def turn(board)
   
   #stuck bellow
  
-  #until valid_move?(board, index) == false
-  #  turn(board)
- # end
+  until valid_move?(board, index) == true
+  turn(board)
+  end
   
-  # 1)
-  # code above not working
 
-  # 2)
-  # how to add #move to #turn without index not defined error?
-  # because of that unable to see the X on the board
-  
 
 end
