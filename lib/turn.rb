@@ -39,11 +39,7 @@ def turn(board)
   index = input_to_index(input)
   puts "I entered #{input} in response to the gets prompt."
   
-  #stuck bellow
- 
-  until valid_move?(board, index) == true
-  turn(board)
-  end
+
   
 
 
