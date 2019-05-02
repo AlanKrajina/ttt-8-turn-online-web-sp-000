@@ -39,7 +39,8 @@ def turn(board)
   index = input_to_index(input)
   puts "I entered #{input} in response to the gets prompt."
   
-
+  if valid_move?(board, index) 
+    move(board,index)
   
 
 
